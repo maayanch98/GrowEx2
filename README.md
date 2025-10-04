@@ -13,4 +13,3 @@ The tests ensure both **positive cases** (successful flow) and **negative cases*
 You can install the dependencies with:
 ```bash
 pip install pytest requests
-
