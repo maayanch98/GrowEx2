@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "31cfefe0-c354-4860-a780-b5c971a5c2f0",
+		"name": "משימת גיוס",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13950615"
+	},
+	"item": [
+		{
+			"name": "createPaymentProcess",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "pageCode",
+							"value": "e19e0b687744",
+							"type": "text"
+						},
+						{
+							"key": "userId",
+							"value": "52e95954cd5c1311",
+							"type": "text"
+						},
+						{
+							"key": "sum",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "paymentNum",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "ORDER123",
+							"type": "text"
+						},
+						{
+							"key": "pageField[fullName]",
+							"value": "שם מלא",
+							"type": "text"
+						},
+						{
+							"key": "pageField[phone]",
+							"value": "0534738605",
+							"type": "text"
+						},
+						{
+							"key": "pageField[email]",
+							"value": "debbie@meshulam.co.il",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://sandbox.meshulam.co.il/api/light/server/1.0/createPaymentProcess",
+					"protocol": "https",
+					"host": [
+						"sandbox",
+						"meshulam",
+						"co",
+						"il"
+					],
+					"path": [
+						"api",
+						"light",
+						"server",
+						"1.0",
+						"createPaymentProcess"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
